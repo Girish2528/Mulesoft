@@ -1,0 +1,10 @@
+CREATE TABLE movies (
+  Name TEXT NOT NULL,
+  Actor TEXT NOT NULL, 
+  Actress TEXT NOT NULL, 
+  Director TEXT NOT NULL, 
+  Year_of_release NOT NULL
+);
+INSERT INTO movies VALUES ('The Shawshank Redemption', 'Tim Robbins', 'Morgan Freeman', 'Frank Darabont', 1994),('The Godfather', 'Francis Ford Coppola', 'Malvika','Lokesh',2020);
+SELECT * FROM movies;
+SELECT Name FROM movies where Actor="Morgan Freeman";
